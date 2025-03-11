@@ -15,14 +15,16 @@ Predict the price, given the data (theta0 and theta1) in thetas.json and the mil
 python3 predict.py
 ```
 
-### - Show graph:
+### - Graph:
 Plotting the data and the line resulting from the linear regression into a graph.
+
 ```shell
 python3 graph.py
 ```
+![alt text](https://github.com/ey-lon/ft_linear_regression/blob/main/graph.jpg?raw=true)
 
-### - Calculate precision:
-Display precision metrics:
+### - Precision:
+Calculate and display precision metrics of the algorithm:
 - Mean Squared Error (MSE)
 - Mean Absolute Error (MAE)
 - R-squared (R²)
