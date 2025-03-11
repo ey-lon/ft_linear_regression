@@ -1,16 +1,18 @@
 # ft_linear_regression
-An introduction to machine learning consisting in a program that predicts the price of a car by using a linear function train with a gradient descent algorithm.
+An introduction to **machine learning** consisting in a program that predicts the price of a car by using a **linear function** train with a **gradient descent algorithm**.
 
 ## How to use:
 
 ### - Train:
-Calculate theta0 and theta1, given the data (mileage and prices) in data.csv.
+Calculate *theta0* and *theta1*, given the data (mileage and prices) in *data.csv*.
 ```shell
 python3 train.py
 ```
 
 ### - Predict:
-Predict the price, given the data (theta0 and theta1) in thetas.json and the mileage(km) passed as input.
+Predict the price, given the data (*theta0* and *theta1*) in *thetas.json* and the mileage(km) passed as input.
+
+*predicted_price = theta0 + theta1 * mileage*
 ```shell
 python3 predict.py
 ```
