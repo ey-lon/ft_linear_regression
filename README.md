@@ -4,7 +4,7 @@ An introduction to **machine learning** consisting in a program that predicts th
 ## How to use:
 
 ### - Train:
-Calculate *theta0* and *theta1*, given the data (mileage and prices) in *data.csv*.
+Calculate *theta0* and *theta1*, given the data (mileage and prices) in *data.csv*, and save them in *thetas.json*.
 ```shell
 python3 train.py
 ```
